@@ -18,9 +18,9 @@ if(healths > 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 0C8A56F8
 	/// @DnDParent : 5EEAE9C7
-	/// @DnDArgument : "x" "-10"
+	/// @DnDArgument : "x" "-15"
 	/// @DnDArgument : "x_relative" "1"
-	x += -10;
+	x += -15;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -28,15 +28,15 @@ if(healths > 0)
 	/// @DnDParent : 5EEAE9C7
 	/// @DnDArgument : "var" "x"
 	/// @DnDArgument : "op" "3"
-	/// @DnDArgument : "value" "1025"
-	if(x <= 1025)
+	/// @DnDArgument : "value" "1200"
+	if(x <= 1200)
 	{
 		/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 		/// @DnDVersion : 1
 		/// @DnDHash : 3BFDE240
 		/// @DnDParent : 72603608
-		/// @DnDArgument : "x" "1025"
-		x = 1025;
+		/// @DnDArgument : "x" "1200"
+		x = 1200;
 	}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
@@ -60,12 +60,11 @@ if(healths > 0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 67F123E5
 			/// @DnDParent : 420E7B49
-			/// @DnDArgument : "xpos" "160"
 			/// @DnDArgument : "xpos_relative" "1"
-			/// @DnDArgument : "ypos" "450"
 			/// @DnDArgument : "ypos_relative" "1"
 			/// @DnDArgument : "objectid" "oBullet3"
-			instance_create_layer(x + 160, y + 450, "Instances", oBullet3);
+			/// @DnDSaveInfo : "objectid" "oBullet3"
+			instance_create_layer(x + 0, y + 0, "Instances", oBullet3);
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
@@ -97,6 +96,7 @@ if(healths <= 0)
 		/// @DnDHash : 0FE12CAD
 		/// @DnDParent : 3A9F22D8
 		/// @DnDArgument : "soundid" "sDestroyed"
+		/// @DnDSaveInfo : "soundid" "sDestroyed"
 		audio_play_sound(sDestroyed, 0, 0);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
@@ -121,6 +121,7 @@ if(healths <= 0)
 		/// @DnDParent : 04EF4E3A
 		/// @DnDArgument : "imageind" "1"
 		/// @DnDArgument : "spriteind" "sprBoss1Dead"
+		/// @DnDSaveInfo : "spriteind" "sprBoss1Dead"
 		sprite_index = sprBoss1Dead;
 		image_index = 1;
 	}
@@ -157,6 +158,7 @@ if(healths <= 0)
 		/// @DnDHash : 234CD331
 		/// @DnDParent : 15D68A51
 		/// @DnDArgument : "soundid" "sDestroyed"
+		/// @DnDSaveInfo : "soundid" "sDestroyed"
 		audio_stop_sound(sDestroyed);
 	
 		/// @DnDAction : YoYo Games.Common.Set_Global
