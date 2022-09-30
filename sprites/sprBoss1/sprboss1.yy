@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"sprBoss1","path":"sprites/sprBoss1/sprBoss1.yy",},
     "resourceVersion": "1.4",
-    "name": "",
+    "name": "sprBoss1",
     "tags": [],
     "resourceType": "GMSequence",
   },

@@ -60,7 +60,7 @@
     "eventStubScript": null,
     "parent": {"name":"sprBoss1Dead","path":"sprites/sprBoss1Dead/sprBoss1Dead.yy",},
     "resourceVersion": "1.4",
-    "name": "",
+    "name": "sprBoss1Dead",
     "tags": [],
     "resourceType": "GMSequence",
   },

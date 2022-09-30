@@ -64,7 +64,7 @@
     "eventStubScript": null,
     "parent": {"name":"sprBoss1Alt","path":"sprites/sprBoss1Alt/sprBoss1Alt.yy",},
     "resourceVersion": "1.4",
-    "name": "",
+    "name": "sprBoss1Alt",
     "tags": [],
     "resourceType": "GMSequence",
   },
