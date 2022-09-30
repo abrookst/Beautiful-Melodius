@@ -22,8 +22,8 @@ healths = 3000;
 /// @DnDVersion : 1
 /// @DnDHash : 10F4CD1F
 /// @DnDArgument : "var" "global.huh"
-/// @DnDArgument : "value" "1"
-if(global.huh == 1)
+/// @DnDArgument : "value" "true"
+if(global.huh == true)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
@@ -31,6 +31,7 @@ if(global.huh == 1)
 	/// @DnDParent : 10F4CD1F
 	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "spriteind" "sprBoss1Alt"
+	/// @DnDSaveInfo : "spriteind" "sprBoss1Alt"
 	sprite_index = sprBoss1Alt;
 	image_index = 1;
 }

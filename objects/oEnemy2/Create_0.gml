@@ -2,14 +2,16 @@
 /// @DnDVersion : 1
 /// @DnDHash : 3C5691C1
 /// @DnDArgument : "var" "global.huh"
-/// @DnDArgument : "value" "1"
-if(global.huh == 1)
+/// @DnDArgument : "value" "true"
+if(global.huh == true)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 10DE5355
 	/// @DnDParent : 3C5691C1
+	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "spriteind" "sprEnemy2Alt"
+	/// @DnDSaveInfo : "spriteind" "sprEnemy2Alt"
 	sprite_index = sprEnemy2Alt;
-	image_index = 0;
+	image_index = 1;
 }
