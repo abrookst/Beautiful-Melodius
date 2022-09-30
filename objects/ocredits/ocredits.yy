@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sprCutscene4",
-    "path": "sprites/sprCutscene4/sprCutscene4.yy",
+    "name": "sprCredits",
+    "path": "sprites/sprCredits/sprCredits.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":true,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

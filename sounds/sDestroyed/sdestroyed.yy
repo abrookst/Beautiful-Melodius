@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "sdestroyed",
-  "duration": 0.0,
+  "duration": 3.797823,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

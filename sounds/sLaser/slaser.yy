@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.08,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -12,7 +12,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "slaser",
-  "duration": 0.0,
+  "duration": 0.163021,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -1,0 +1,1 @@
+audio_play_sound(sStatic, 1000, true)

@@ -10,6 +10,12 @@ instance_destroy();
 /// @DnDArgument : "op" "3"
 if(timers <= 0)
 {
+	/// @DnDAction : YoYo Games.Audio.Stop_All_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 74A1C65F
+	/// @DnDParent : 5A6D7117
+	audio_stop_all();
+
 	/// @DnDAction : YoYo Games.Rooms.Restart_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 56C15A5C

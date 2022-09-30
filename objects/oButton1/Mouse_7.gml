@@ -23,9 +23,11 @@ if(hmm == 0)
 	/// @DnDVersion : 1
 	/// @DnDHash : 13A4C114
 	/// @DnDParent : 399EF0E4
+	/// @DnDArgument : "imageind_relative" "1"
 	/// @DnDArgument : "spriteind" "sprButton2"
+	/// @DnDSaveInfo : "spriteind" "sprButton2"
 	sprite_index = sprButton2;
-	image_index = 0;
+	image_index += 0;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -47,6 +49,7 @@ if(hmm == 1)
 	/// @DnDHash : 13D962E5
 	/// @DnDParent : 438AED37
 	/// @DnDArgument : "spriteind" "sprButton1"
+	/// @DnDSaveInfo : "spriteind" "sprButton1"
 	sprite_index = sprButton1;
 	image_index = 0;
 }

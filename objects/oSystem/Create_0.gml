@@ -1,1 +1,1 @@
-gameIsPaused = false;
+global.gameIsPaused = false;
